@@ -99,3 +99,6 @@ step 1--->Configure your database as follows
 this is the default database configuration i have used during development.
 
 step 2--->Make sure that all the requirements for this project  are installed
+
+
+you will need to set the database configuration same as the given configuration to make this work.....otherwise there might be some issues
