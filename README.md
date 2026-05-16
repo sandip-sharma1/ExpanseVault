@@ -543,6 +543,5 @@ This project is licensed under the **MIT License** - see the LICENSE file for de
 ---
 
 <div align="center">
-[⬆ Back to Top](#-expensevault---smart-personal-finance-manager)
 
 </div>
