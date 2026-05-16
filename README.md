@@ -1,4 +1,4 @@
-# 💰 ExpanseVault - Smart Personal Finance Manager
+# 💰 ExpenseVault - Smart Personal Finance Manager
 
 > A desktop-based expense tracking application built with **Python (PyQt6)** and **MySQL**. Manage your finances intelligently with real-time budget alerts and visual analytics.
 
