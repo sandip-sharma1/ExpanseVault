@@ -16,30 +16,30 @@
 
 ## 📑 Table of Contents
 
-- [✨ Key Features](#-key-features)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [⚡ Quick Start](#-quick-start)
-- [📥 Installation](#-installation)
-- [🚀 How to Use](#-how-to-use)
-- [🗄️ Database Structure](#-database-structure)
-- [💡 Feature Details](#-feature-details)
-- [🔧 Advanced Features](#-advanced-features)
-- [❓ Troubleshooting](#-troubleshooting)
-- [📚 Usage Scenarios](#-usage-scenarios)
-- [🤝 Contributing](#-contributing)
-- [📋 License](#-license)
+- [ Key Features](#-key-features)
+- [ Tech Stack](#️-tech-stack)
+- [ Quick Start](#-quick-start)
+- [ Installation](#-installation)
+- [ How to Use](#-how-to-use)
+- [ Database Structure](#-database-structure)
+- [ Feature Details](#-feature-details)
+- [ Advanced Features](#-advanced-features)
+- [ Troubleshooting](#-troubleshooting)
+- [ Usage Scenarios](#-usage-scenarios)
+- [ Contributing](#-contributing)
+- [ License](#-license)
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🏷️ **Category Management**
+###  **Category Management**
 - ✅ Add/remove expense categories dynamically
 - ✅ Store categories permanently in MySQL database
 - ✅ Automatic database repair and validation
 - ✅ Handle mistaken database structures automatically
 
-### 💸 **Expense Management**
+###  **Expense Management**
 - ✅ Add expenses with date and amount
 - ✅ Edit existing expenses inline
 - ✅ Delete expenses with confirmation
@@ -48,7 +48,7 @@
 - ✅ View total spending per category
 - ✅ **Export to CSV** for external analysis
 
-### 📊 **Visual Analytics**
+###  **Visual Analytics**
 - ✅ **Interactive Pie Chart** showing expense distribution
 - ✅ Color-coded slices for easy identification
 - ✅ Percentage contribution display
@@ -71,7 +71,7 @@
 - ✅ Live spending calculation for current month
 - ✅ Detailed over-budget information
 
-### 🔄 **Database Auto-Setup**
+###  **Database Auto-Setup**
 - ✅ Automatically creates database if missing
 - ✅ Auto-creates required tables with proper structure
 - ✅ Repairs incorrect or corrupted tables
@@ -80,7 +80,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Version | Purpose |
 |-----------|---------|---------|
@@ -116,7 +116,7 @@ python Expensevault.py
 
 ---
 
-## 📥 Installation
+##  Installation
 
 ### Step 1: System Requirements
 ```bash
@@ -205,7 +205,7 @@ A loading dialog will appear showing database setup progress. After setup comple
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 ### Main Menu
 When you launch ExpanseVault, you'll see 5 main options:
@@ -344,17 +344,17 @@ categories
 - Automatic backup with proper foreign keys
 - Cascading deletes prevent orphaned records
 
-### 📱 User-Friendly Design
+###  User-Friendly Design
 - Intuitive navigation between windows
 - Clear error messages and feedback
 - Popup dialogs for confirmations
 
-### ⚡ Real-Time Calculations
+###  Real-Time Calculations
 - Live expense totals per category
 - Current month spending auto-calculated
 - Percentage calculations for budget status
 
-### 📈 CSV Export
+###  CSV Export
 Export expenses to CSV format:
 ```csv
 ID,Amount,Date
@@ -377,7 +377,7 @@ The app uses color coding for quick budget assessment:
 | Exceeded | 🔴 Red | 100%+ | Over budget, reduce spending |
 | No Limit | ⚪ White | N/A | No budget set for category |
 
-### 🔄 Automatic Database Validation
+###  Automatic Database Validation
 The application automatically:
 1. **Checks** if database exists, creates if missing
 2. **Validates** table structure on startup
@@ -385,14 +385,14 @@ The application automatically:
 4. **Cleans** mistaken database structures
 5. **Maintains** referential integrity
 
-### 📅 Date Filtering
+###  Date Filtering
 Advanced date range filtering:
 - Select custom start and end dates
 - One-click "Current Month" filter
 - Formatted date picker with calendar
 - Historical expense tracking
 
-### 📊 Category Analytics
+###  Category Analytics
 - See total spending per category
 - Identify spending patterns
 - Plan budgets based on history
@@ -525,22 +525,6 @@ For troubleshooting, check the console output:
 
 ---
 
-## 🤝 Contributing
-
-Found a bug or have a feature request?
-
-1. **Report Issues:** Create a GitHub issue with:
-   - Description of the problem
-   - Steps to reproduce
-   - Expected vs. actual behavior
-   - Your environment details
-
-2. **Feature Requests:** Suggest improvements with:
-   - Use case description
-   - Why it's needed
-   - Proposed solution (if any)
-
-3. **Improvements:** Feel free to suggest code improvements or optimizations
 
 ---
 
@@ -550,35 +534,7 @@ This project is licensed under the **MIT License** - see the LICENSE file for de
 
 ---
 
-## 📞 Support
-
-If you encounter any issues:
-
-1. **Check Troubleshooting Section** above
-2. **Review Console Output** for error messages
-3. **Verify Database Setup** matches instructions
-4. **Create GitHub Issue** with detailed information
-
----
-
-## 🎯 Roadmap
-
-Planned features for future versions:
-
-- [ ] Data encryption for sensitive information
-- [ ] Multi-user support
-- [ ] Recurring expenses
-- [ ] Income tracking
-- [ ] Advanced reporting (PDF export)
-- [ ] Mobile app companion
-- [ ] Cloud sync backup
-- [ ] Budget forecasting
-- [ ] Multiple currency support
-- [ ] Bill reminders
-
----
-
-## ❤️ Acknowledgments
+##  Acknowledgments
 
 - PyQt6 for the GUI framework
 - MySQL for robust database management
@@ -587,9 +543,6 @@ Planned features for future versions:
 ---
 
 <div align="center">
-
-**Made with ❤️ for personal finance management**
-
 [⬆ Back to Top](#-expensevault---smart-personal-finance-manager)
 
 </div>
